@@ -1,0 +1,190 @@
+/* main page */
+.main-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-ul a {
+  font-size: 30px;
+
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 10px 50px;
+}
+
+.main-ul a:hover,
+.main-ul a:focus {
+  color: orange;
+  border-color: orange;
+}
+
+/* page 1 */
+#categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 150px;
+
+  border: 1px solid orange;
+  border-radius: 20px;
+  background-color: rgba(255, 165, 0, 0.2);
+  padding: 10px 50px;
+
+  width: 100vw;
+}
+
+.go-back-link {
+  background-color: orange;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 50px;
+}
+
+.go-back-link:hover {
+  opacity: 90%;
+}
+
+/* page 2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+
+  margin: 0;
+}
+
+.gallery-item img {
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* page 3 */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+#name-input {
+  width: 250px;
+  height: 50px;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+
+#name-output {
+  color: orange;
+}
+
+/* page 4 */
+
+.task-4-body {
+  background-color: gainsboro;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  width: 500px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.login-form input {
+  width: 425px;
+  margin-top: 5px;
+  padding: 10px 12px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  border-color: #ffa500;
+  box-shadow: 0 0 5px #ffa500(76, 175, 80, 0.5);
+}
+
+.login-form button {
+  padding: 10px 12px;
+  min-width: 150px;
+  background-color: #ffa500;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.login-form button:hover {
+  opacity: 90%;
+}
+
+/* page 5 */
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.widget p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.change-color {
+  font-size: 18px;
+  background-color: orange;
+  color: #fff;
+
+  border-radius: 20px;
+  padding: 10px 50px;
+
+  cursor: pointer;
+
+  border: none;
+}
+
+.change-color:hover {
+  opacity: 90%;
+}
